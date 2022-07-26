@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [reviews, setReviews] = useReview()
+    console.log(reviews)
     return (
         <div>
             <div className='grid grid-cols-1 md:grid-cols-2 mt-4 mx-auto px-4  '>
@@ -19,11 +20,13 @@ const Home = () => {
          
         </div>
         <div>
-            <h1 className='text-xl py-5 my-4 font-bold'>Customer Review</h1>
-            <div>
+            <h1 className='text-xl py-6 my-4 font-bold'>Customer Review</h1>
+            <div className='grid gap-4 grid-cols-1 md:grid-cols-2'>
             {
-                reviews.map(review =><ReviewInfo key={review.id} review={review}></ReviewInfo>)
+                reviews.map(review =><ReviewInfo   key={review.id} review={review}></ReviewInfo>)
+                
             }
+            
             </div>
                 
         </div>
