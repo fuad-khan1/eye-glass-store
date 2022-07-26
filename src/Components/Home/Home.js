@@ -13,7 +13,10 @@ const Home = () => {
             </div>
          
         </div>
-        
+        <button className='font-bold text-white bg-slate-600 py-2  px-4 rounded mt-5'>
+            See All Reviews
+        </button>
+
         </div>
     );
 };

@@ -10,7 +10,7 @@ const Review = () => {
     },[])
     return (
         <div>
-            <h2 className='text-xl'>Reviews</h2>
+            <h2 className='text-2xl'>Reviews</h2>
             <div className='mt-4 px-4  grid gap-4 grid-cols-1 md:grid-cols-2'>
             {
                 

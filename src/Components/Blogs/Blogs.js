@@ -2,7 +2,7 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div className="bg-gray-200 px-4 mx-3 rounded">
+    <div className=" px-4 mx-3 rounded">
       <ul className="p-6  list-disc">
         <li className="">
           <span className="font-bold">Context_Api:</span> In React, data is
@@ -27,7 +27,6 @@ const Blogs = () => {
           .
         </li>
         <li>
-          {" "}
           <span className="font-bold">semantic Tags:</span> semantic Tags are
           types of tags which are meaningfull. If anybody read these tags name,
           they clearly understand the purpose of the tags.{" "}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BeakerIcon,StarIcon } from '@heroicons/react/solid'
+import { StarIcon } from '@heroicons/react/solid'
 
 
 const ReviewInfo = ({review}) => {
